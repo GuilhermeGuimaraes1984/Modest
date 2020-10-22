@@ -119,6 +119,7 @@ body {
 .redes {
     display: flex;
     padding-top: 50px;
+    margin-bottom: 15px;
 }
 
 .redes a {
@@ -155,10 +156,52 @@ body {
     grid-column: span 7;
 }
 
+.equipe {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
 .somos-direita{
     grid-column: span 5;
 }
 
+.equipe-texto{
+    background-color: #e1e6ea;
+    padding: 20px;
+}
+
+.equipe img{
+    display: block;
+    width: 100%;
+}
+
+.equipe-nome{
+    color: #292f36;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600px;
+}
+
+.equipe-cargo{
+    color: #8d8f92;
+    font-size: 14px;
+}
+
+.membro{
+    grid-column: span 3
+}
+
+.membro:hover .equipe-texto{
+    background-color: #3a454d;
+}
+
+.membro:hover .equipe-nome{
+    color: #fff;
+}
+
+.membro:hover .equipe-cargo{
+    color: #fff;
+}
 /*TABLER*/
 
 @media (max-width: 1139px) {
