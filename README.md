@@ -1,3 +1,3 @@
-Modest, é meu primeiro projeo em hatml e css 
+Modest, é meu primeiro projeo em html e css
 
 
