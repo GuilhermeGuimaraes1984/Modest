@@ -202,6 +202,33 @@ body {
 .membro:hover .equipe-cargo{
     color: #fff;
 }
+
+.bx-wrapper {
+    border: 0;
+    box-shadow: none;
+}
+
+.bx-wrapper .bx-controls-direction a {
+    display: none;
+}
+
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+    bottom: 30px;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background-color: transparent;
+    border: #ffffff 2px solid;
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active,
+ .bx-wrapper ,.bx-pager.bx-default-pager a:focus{
+     background-color: #ffffff;
+ } 
+
 /*TABLER*/
 
 @media (max-width: 1139px) {
